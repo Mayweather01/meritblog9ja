@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { title: "Dj Kentalky - Get Your PVC Mix", artist: "Dj Kentalky", downloadLink: "image/Dj Kentalky - Get Your PVC Mix-(WWW.NaijaDJMix.COM).mp3", category: "mixtapes" },
         { title: "Sorry", artist: "Mohbad", downloadLink: "image/Mohbad_-_Sorry.mp3", category: "naija" },
         { title: "Mohbad_Walking_Dead", artist: "Mohbad", downloadLink: "image/Mohbad_-_Every_Man_Is_A_Walking_Dead.mp3", category: "naija" },
-        { title: "Rent-Free", artist: "Gyakie", downloadLink: "image/Gyakie-Rent-Free.mp3", category: "ghana" },
+        { title: "Rent-Free", artist: "Gyakie", downloadLink: "image/Gyakie-Rent-Free-(Meritblog9ja).mp3", category: "ghana" },
         { title: "Falz-Ft-Olamide-Davido-Bahd-Baddo-Baddest", artist: "Falz-Ft-Olamide-Davido-Bahd-Baddo-Baddest", downloadLink: "image/Falz-Ft-Olamide-Davido-Bahd-Baddo-Baddest.mp3", category: "naija" },
         { title: "Raye-Escapism-Ft-070-Shake.mp3", artist: "Raye-Escapism-Ft-070-Shake", downloadLink: "image/Raye-Escapism-Ft-070-Shake.mp3", category: "foreign" },
         // Add more song objects as needed

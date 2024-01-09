@@ -13,6 +13,10 @@ header {
     padding: 1em 0;
 }
 
+.searchInput {
+    border-radius: 50px;
+}
+
 header h1 span {
     color: #e74c3c; /* Red accent for span in header */
 }
