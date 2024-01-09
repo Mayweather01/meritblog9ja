@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meritblog9ja News & Entertainment Hub</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1><span>Meritblog9ja</span> News & Entertainment <span>Hub</span></h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for music...">
+            <select id="categorySelect">
+                <option value="all">All Categories</option>
+                <option value="gospel">Gospel Music</option>
+                <option value="ghana">Ghana Music</option>
+                <option value="naija">Naija Music</option>
+                <option value="mixtapes">Mixtapes</option>
+                <option value="foreign">Foreign Music</option>
+            </select>
+            <button onclick="searchMusic()">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-container">
+            <div id="music-list-container"></div>
+            <!-- Sample artist section -->
+            <div class="artist-info">
+                <img src="image/mohbad.jpg" alt="Artist 1">
+                <p>Chike collaborates posthumously with the late Mohbad in the vibrant Amapiano track, "Egwu". Produced by DeeYasso, the song is a joyful celebration of music's unbridled spirit, with Mohbad's distinctive vocals declaring, "Music needs no permission to enter your spirit".</p>
+                <img src="image/wizy2.jpg" alt="Artist 1">
+                <p>Nigerian singer-songwriter and talented artist, Wizkid, blesses us with an impressive single titled "IDK". This track is a must-have addition to your Playlist, showcasing Wizkid's incredible talent. Released in 2023, "IDK" stands as Wizkid's latest single, captivating listeners with its infectious sound.</p>
+            </div>
+            <!-- End of sample artist section -->
+        </div>
+    </main>
+
+    <footer id="footer" class="hidden">
+        <div class="social-icons">
+            <a href="https://wa.me/1234567890" target="_blank"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+            <a href="https://facebook.com/yourpage" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="https://instagram.com/yourpage" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="mailto:your@email.com"><img src="email-icon.png" alt="Email"></a>
+            <a href="https://twitter.com/yourpage" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 <span> Meritblog9ja </span> Entertainment Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
