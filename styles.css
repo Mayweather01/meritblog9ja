@@ -80,7 +80,7 @@ main {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    width: calc(50% - 10px); /* Adjusted width to 50% */
+    width: calc(60% - 10px); /* Adjusted width to 50% */
     margin-bottom: 20px;
 }
 
@@ -131,19 +131,6 @@ h2 {
         width: 100%
     }
 
-    .music-item audio {
-        width: 50%;
-        margin-bottom: 5px;
-        height: 50px;
-    }
-
-    .search-container input {
-        padding: 8px;
-        width: 100%;
-        margin-right: 5px;
-        border-radius: 30px;
-    }
-
     
 }
 
@@ -168,7 +155,7 @@ h2 {
 .search-container select {
     padding: 8px;
     margin-right: 5px;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .search-container button {
@@ -176,7 +163,7 @@ h2 {
     background-color: #3498db; /* Blue color for search button */
     color: #ecf0f1;
     border: none;
-    border-radius: 30px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -196,12 +183,12 @@ footer {
 
 .footer-visible {
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.2s ease;
 }
 
 .hidden {
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.2s ease;
     pointer-events: none;
 }
 

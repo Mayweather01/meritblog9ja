@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const musicListContainer = document.getElementById("music-list-container");
     const footer = document.getElementById("footer");
-    const videoContainer = document.getElementById("video-container");
 
     const songs = [
         { title: "Egwu", artist: "Chike_Ft_MohBad_-_Egwu", downloadLink: "image/Chike_Ft_MohBad_-_Egwu.mp3", category: "naija" },
